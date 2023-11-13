@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function buatKalimat(name, age, address, hobby) {
+          // Menggabungkan parameter menjadi satu kalimat
+          var kalimat = `Nama saya ${name}, Usia saya ${age}, Alamat saya ${address}, dan Hobi ${hobby}`;
+    
+          // Menampilkan kalimat di dalam console
+          console.log( + kalimat);
+    
+          // Mengembalikan kalimat untuk penggunaan lebih lanjut
+          return kalimat;
+        }
+    
+        // Contoh pemanggilan fungsi
+        var hasilKalimat = buatKalimat('Rivalina', 16, 'Diamond Residence', 'Bernyanyi');
+        document.write('<p>' + hasilKalimat + '</p>');
+      </script>
+      
+</body>
+</html>
